@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls -la)",
+      "Bash(pip --version)",
+      "Bash(dotnet --version)",
+      "Bash(pip list *)",
+      "Bash(timeout 30 pip index versions PyQt5)",
+      "Bash(pip install *)",
+      "Bash(python -c ' *)",
+      "Bash(python -c \"import rembg; print\\('rembg OK', rembg.__version__ if hasattr\\(rembg,'__version__'\\) else '?'\\)\")",
+      "Bash(python tools/_test_rembg.py)",
+      "Bash(python tools/process_assets.py)",
+      "Bash(python tools/_smoke.py)",
+      "Bash(echo \"exit=$?\")",
+      "Bash(echo \"exit2=$?\")",
+      "Bash(echo \"EXIT=$?\")",
+      "Bash(/c/Users/yuanzhang/AppData/Local/Programs/Python/Python38/python --version)",
+      "Bash(/c/Users/yuanzhang/AppData/Local/Programs/Python/Python38/python -c 'print\\('\\\\''hi-c'\\\\''\\)')",
+      "Bash(printf 'print\\(\"hi-file\"\\)\\\\n')",
+      "Bash(/c/Users/yuanzhang/AppData/Local/Programs/Python/Python38/python /tmp/_t.py)",
+      "Bash(/c/Users/yuanzhang/AppData/Local/Programs/Python/Python38/python tools/_smoke.py)",
+      "Bash(/c/Users/yuanzhang/AppData/Local/Programs/Python/Python38/python -c 'import sys;sys.path.insert\\(0,'\\\\''.'\\\\''\\);from src import config,database;database.init_db\\(\\);from src.animator import PetAssets; a=PetAssets\\(\\); print\\('\\\\''OK db+assets, count='\\\\'',len\\(a.pixmaps\\)\\)')",
+      "Bash(/c/Users/yuanzhang/AppData/Local/Programs/Python/Python38/python -c 'print\\(open\\('\\\\''tools/_smoke.py'\\\\'',encoding='\\\\''utf-8'\\\\''\\).read\\(\\)[:200]\\)')",
+      "Bash(pip show *)"
+    ]
+  }
+}
